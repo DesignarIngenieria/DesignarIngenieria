@@ -1,0 +1,71 @@
+#footer a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+#footer a:hover {
+    color: gray;
+    text-decoration: none;
+    background-color: transparent;
+}
+#footer 
+{
+    background: rgb(1,35,64);
+    background: linear-gradient(90deg, rgba(1,35,64,1) 0%, rgba(38,117,166,1) 51%, rgba(217,217,217,1) 100%);
+    color: #fff;
+    
+}
+
+
+#imageDesignar
+{
+    
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#imageDesignar:hover {
+	opacity: .5;
+}
+
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    object-position: center; 
+    filter: grayscale(70%);
+}
+
+#carousel
+{
+    position: relative;
+}
+
+#carousel .overlay
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: aliceblue;
+
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row 
+{
+   height: 100%;
+   z-index: 1;
+}
+
+a.btn.btn-primary {
+
+    background-color: #012340;
+    border:1px solid #000;
+}
+
+a.btn.btn-primary:hover {
+    background-color: #000;
+    border:1px solid #000;
+}
